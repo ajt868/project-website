@@ -1,0 +1,55 @@
+
+h1, h2, h3 {
+    color: rgb(245, 239, 225);
+    background-color: rgb(56, 136, 211);
+    font-family: Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif;
+    color-scheme: dark;
+    text-align: center;
+    padding: 20px;
+}
+
+head {
+    margin: 0;
+}
+
+header {
+    color: rgb(245, 239, 225);
+    background-color: rgb(56, 136, 211);
+    font-family: Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding: 5%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: rgb(56, 136, 211);
+    padding: 0px;
+    font-size: 20px;
+    border: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(56, 136, 211);
+}
+
+.dropdown-content a:hover {background-color: rgb(56, 136, 211)}
+
+.dropdown:hover .dropdown-content {display: block}
+
+.dropdown:hover .dropbtn {background-color: rgb(56, 136, 211);}
